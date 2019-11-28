@@ -1,0 +1,16 @@
+body {
+  padding: auto;
+}
+#rectangular {
+  margin: auto;
+}
+#rectangular button {
+  height: 35px;
+  width: 75px;
+  margin: 40px;
+  border: none;
+}
+#rectangular button.i1 {
+  color: white;
+  background: purple;
+}
