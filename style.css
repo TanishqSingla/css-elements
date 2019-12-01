@@ -1,16 +1,58 @@
+/* 
+  Contents
+  1. Rectangular button pallet
+      i1 - A simple rectangular button 
+      i2 - A simple rectangular button which changes background color when hovered
+      i3 - A hollow rectangular button gets a block background color when hovered
+*/
 body {
   padding: auto;
 }
+/* 
+  Rectangular button 
+    i1 - A simple rectangular button 
+    i2 - A simple rectangular button which changes background color when hovered
+    i3 - A hollow rectangular button gets a block background color when hovered
+    
+*/
 #rectangular {
   margin: auto;
 }
+
 #rectangular button {
   height: 35px;
   width: 75px;
   margin: 40px;
   border: none;
 }
+
+/* i1 */
 #rectangular button.i1 {
   color: white;
   background: purple;
+  cursor: pointer;
+}
+
+/* i2 */
+#rectangular button.i2 {
+  color: white;
+  background: violet;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+}
+#rectangular button.i2:hover {
+  background: purple;
+}
+
+/* i3 */
+#rectangular button.i3 {
+  background: none;
+  border: 1px solid black;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+}
+#rectangular button.i3:hover {
+  background: cyan;
+  color: white;
+  border: none;
 }
