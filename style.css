@@ -4,6 +4,8 @@
       i1 - A simple rectangular button 
       i2 - A simple rectangular button which changes background color when hovered
       i3 - A hollow rectangular button gets a block background color when hovered
+      i4 - A rectangular button which changes scale when hovered - 1
+      i5 - A rectangular button which changes scale when hovered - 2
 */
 body {
   padding: auto;
@@ -13,7 +15,8 @@ body {
     i1 - A simple rectangular button 
     i2 - A simple rectangular button which changes background color when hovered
     i3 - A hollow rectangular button gets a block background color when hovered
-    
+    i4 - A rectangular button which changes scale when hovered - 1
+    i5 - A rectangular button which changes scale when hovered - 2
 */
 #rectangular {
   margin: auto;
@@ -32,6 +35,9 @@ body {
   background: purple;
   cursor: pointer;
 }
+#rectangular button.i1:focus {
+  outline: none;
+}
 
 /* i2 */
 #rectangular button.i2 {
@@ -42,6 +48,9 @@ body {
 }
 #rectangular button.i2:hover {
   background: purple;
+}
+#rectangular button.i2:focus {
+  outline: none;
 }
 
 /* i3 */
@@ -55,4 +64,34 @@ body {
   background: cyan;
   color: white;
   border: none;
+}
+#rectangular button.i3:focus {
+  outline: none;
+}
+
+/* i4 */
+#rectangular button.i4 {
+  background: rgb(0, 166, 207);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s cubic-bezier(0.79, -0.35, 0, 1.87);
+}
+#rectangular button.i4:hover {
+  transform: scale(1.2) translateY(-5px);
+}
+#rectangular button.i4:focus {
+  outline: none;
+}
+
+/* i5 */
+#rectangular button.i5 {
+  background: rgb(0, 166, 207);
+  color: white;
+  cursor: pointer;
+  box-shadow: 0px 7px 13px -2px rgb(0, 0, 0, 0.5);
+  transition: 0.3s ease-in-out;
+}
+#rectangular button.i5:hover {
+  transform: scale(1.2) translateY(-5px);
+  box-shadow: 0px 13px 15px -7px #000000cc;
 }
