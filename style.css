@@ -29,6 +29,7 @@ body {
   width: 75px;
   margin: 40px;
   border: none;
+  cursor: pointer;
 }
 #rectangular button:focus {
   outline: none;
@@ -38,7 +39,6 @@ body {
 #rectangular button.i1 {
   color: white;
   background: purple;
-  cursor: pointer;
 }
 
 /* i2 */
@@ -46,7 +46,6 @@ body {
   color: white;
   background: indigo;
   transition: all 0.3s ease-in;
-  cursor: pointer;
 }
 #rectangular button.i2:hover {
   background: violet;
@@ -57,7 +56,6 @@ body {
   background: none;
   border: 1px solid black;
   transition: all 0.3s ease-in;
-  cursor: pointer;
 }
 #rectangular button.i3:hover {
   background: cyan;
@@ -69,7 +67,6 @@ body {
 #rectangular button.i4 {
   background: rgb(0, 166, 207);
   color: white;
-  cursor: pointer;
   transition: 0.3s cubic-bezier(0.79, -0.35, 0, 1.87);
 }
 #rectangular button.i4:hover {
@@ -83,8 +80,7 @@ body {
 #rectangular button.i5 {
   background: #00a6cf;
   color: white;
-  cursor: pointer;
-  box-shadow: 0px 7px 13px -2px rgb(0, 0, 0, 0.5);
+  box-shadow: 0px 7px 13px -2px #00000080;
   transition: 0.3s ease-in-out;
 }
 #rectangular button.i5:hover {
@@ -98,3 +94,18 @@ body {
 }
 
 /* i6 */
+#rectangular button.i6 {
+  background: #00a6cf;
+  color: white;
+  box-shadow: 0px 7px 13px -2px #00000080, inset 0px 2px 4px #ffffffbb;
+  transition: 0.3s ease-in-out;
+}
+#rectangular button.i6:hover {
+  transform: scale(1.2) translateY(-5px);
+  box-shadow: 0px 13px 15px -7px #000000cc, inset 0px 4px 4px #ffffffbb;
+}
+#rectangular button.i6:active {
+  transition: none;
+  transform: scale(1);
+  box-shadow: inset 0px 3px 6px -2px #000;
+}
