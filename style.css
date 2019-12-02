@@ -6,6 +6,7 @@
       i3 - A hollow rectangular button gets a block background color when hovered
       i4 - A rectangular button which changes scale when hovered - 1
       i5 - A rectangular button which changes scale when hovered - 2
+      i6 - A shiny version of i5
 */
 body {
   padding: auto;
@@ -17,6 +18,7 @@ body {
     i3 - A hollow rectangular button gets a block background color when hovered
     i4 - A rectangular button which changes scale when hovered - 1
     i5 - A rectangular button which changes scale when hovered - 2
+    i6 - A shiny version of i5
 */
 #rectangular {
   margin: auto;
@@ -42,12 +44,12 @@ body {
 /* i2 */
 #rectangular button.i2 {
   color: white;
-  background: violet;
+  background: indigo;
   transition: all 0.3s ease-in;
   cursor: pointer;
 }
 #rectangular button.i2:hover {
-  background: purple;
+  background: violet;
 }
 #rectangular button.i2:focus {
   outline: none;
@@ -82,10 +84,13 @@ body {
 #rectangular button.i4:focus {
   outline: none;
 }
+#rectangular button.i4:active {
+  transform: scale(1);
+}
 
 /* i5 */
 #rectangular button.i5 {
-  background: rgb(0, 166, 207);
+  background: #00a6cf;
   color: white;
   cursor: pointer;
   box-shadow: 0px 7px 13px -2px rgb(0, 0, 0, 0.5);
@@ -95,3 +100,10 @@ body {
   transform: scale(1.2) translateY(-5px);
   box-shadow: 0px 13px 15px -7px #000000cc;
 }
+#rectangular button.i5:active {
+  transition: none;
+  transform: scale(1);
+  box-shadow: inset 0px 3px 6px -2px black;
+}
+
+/* i6 */
