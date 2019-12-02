@@ -30,15 +30,15 @@ body {
   margin: 40px;
   border: none;
 }
+#rectangular button:focus {
+  outline: none;
+}
 
 /* i1 */
 #rectangular button.i1 {
   color: white;
   background: purple;
   cursor: pointer;
-}
-#rectangular button.i1:focus {
-  outline: none;
 }
 
 /* i2 */
@@ -50,9 +50,6 @@ body {
 }
 #rectangular button.i2:hover {
   background: violet;
-}
-#rectangular button.i2:focus {
-  outline: none;
 }
 
 /* i3 */
@@ -67,9 +64,6 @@ body {
   color: white;
   border: none;
 }
-#rectangular button.i3:focus {
-  outline: none;
-}
 
 /* i4 */
 #rectangular button.i4 {
@@ -80,9 +74,6 @@ body {
 }
 #rectangular button.i4:hover {
   transform: scale(1.2) translateY(-5px);
-}
-#rectangular button.i4:focus {
-  outline: none;
 }
 #rectangular button.i4:active {
   transform: scale(1);
