@@ -81,7 +81,7 @@ body {
   background: #00a6cf;
   color: white;
   box-shadow: 0px 7px 13px -2px #00000080;
-  transition: 0.3s ease-in-out;
+  transition: 0.3s cubic-bezier(0.79, -0.35, 0, 1.87);
 }
 #rectangular button.i5:hover {
   transform: scale(1.2) translateY(-5px);
@@ -98,7 +98,7 @@ body {
   background: #00a6cf;
   color: white;
   box-shadow: 0px 7px 13px -2px #00000080, inset 0px 2px 4px #ffffffbb;
-  transition: 0.3s ease-in-out;
+  transition: 0.3s cubic-bezier(0.79, -0.35, 0, 1.87);
 }
 #rectangular button.i6:hover {
   transform: scale(1.2) translateY(-5px);
