@@ -36,6 +36,9 @@ body {
 #rectangular button:focus {
   outline: none;
 }
+#rectangular button::-moz-focus-inner {
+  border: none;
+}
 
 /* i1 */
 #rectangular button.i1 {
