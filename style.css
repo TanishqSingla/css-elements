@@ -13,7 +13,7 @@
       i1 - A button with 2 color linear gradient
 */
 body {
-	padding: auto;
+  padding: auto;
 }
 /* 
   Rectangular button 
@@ -26,113 +26,113 @@ body {
     i7 - A button which curves on the edges when hovered
 */
 body > * > * {
-	margin: 40px;
+  margin: 40px;
 }
 #rectangular button {
-	height: 35px;
-	width: 75px;
-	border: none;
-	cursor: pointer;
+  height: 35px;
+  width: 75px;
+  border: none;
+  cursor: pointer;
 }
 #rectangular button:focus {
-	outline: none;
+  outline: none;
 }
 button::-moz-focus-inner {
-	border: none;
+  border: none;
 }
 
 /* i1 */
 #rectangular button.i1 {
-	color: white;
-	background: purple;
+  color: white;
+  background: purple;
 }
 
 /* i2 */
 #rectangular button.i2 {
-	color: white;
-	background: indigo;
-	transition: all 0.3s ease-in;
+  color: white;
+  background: indigo;
+  transition: all 0.3s ease-in;
 }
 #rectangular button.i2:hover {
-	background: violet;
+  background: violet;
 }
 
 /* i3 */
 #rectangular button.i3 {
-	background: none;
-	border: 1px solid black;
-	transition: all 0.3s ease-in;
+  background: none;
+  border: 1px solid black;
+  transition: all 0.3s ease-in;
 }
 #rectangular button.i3:hover {
-	background: cyan;
-	color: white;
-	border: none;
+  background: cyan;
+  color: white;
+  border: none;
 }
 
 /* i4 */
 #rectangular button.i4 {
-	background: rgb(0, 166, 207);
-	color: white;
-	transition: 0.3s cubic-bezier(0.79, -0.35, 0, 1.87);
+  background: rgb(0, 166, 207);
+  color: white;
+  transition: 0.3s cubic-bezier(0.79, -0.35, 0, 1.87);
 }
 #rectangular button.i4:hover {
-	transform: scale(1.2) translateY(-3px);
+  transform: scale(1.2) translateY(-3px);
 }
 #rectangular button.i4:active {
-	transform: scale(1);
+  transform: scale(1);
 }
 
 /* i5 */
 #rectangular button.i5 {
-	background: #00a6cf;
-	color: white;
-	box-shadow: 0px 7px 13px -2px #00000080;
-	transition: 0.3s cubic-bezier(0.79, -0.35, 0, 1.87);
+  background: #00a6cf;
+  color: white;
+  box-shadow: 0px 7px 13px -2px #00000080;
+  transition: 0.3s cubic-bezier(0.79, -0.35, 0, 1.87);
 }
 #rectangular button.i5:hover {
-	transform: scale(1.2) translateY(-3px);
-	box-shadow: 0px 13px 15px -7px #000000cc;
+  transform: scale(1.2) translateY(-3px);
+  box-shadow: 0px 13px 15px -7px #000000cc;
 }
 #rectangular button.i5:active {
-	transition: none;
-	transform: scale(1);
-	box-shadow: inset 0px 3px 6px -2px black;
+  transition: none;
+  transform: scale(1);
+  box-shadow: inset 0px 3px 6px -2px black;
 }
 
 /* i6 */
 #rectangular button.i6 {
-	background: #00a6cf;
-	color: white;
-	box-shadow: 0px 7px 13px -2px #00000080, inset 0px 2px 4px #ffffffbb;
-	transition: 0.3s cubic-bezier(0.79, -0.35, 0, 1.87);
+  background: #00a6cf;
+  color: white;
+  box-shadow: 0px 7px 13px -2px #00000080, inset 0px 2px 4px #ffffffbb;
+  transition: 0.3s cubic-bezier(0.79, -0.35, 0, 1.87);
 }
 #rectangular button.i6:hover {
-	transform: scale(1.2) translateY(-3px);
-	box-shadow: 0px 13px 15px -7px #000000cc, inset 0px 4px 4px #ffffffbb;
+  transform: scale(1.2) translateY(-3px);
+  box-shadow: 0px 13px 15px -7px #000000cc, inset 0px 4px 4px #ffffffbb;
 }
 #rectangular button.i6:active {
-	transition: none;
-	transform: scale(1);
-	box-shadow: inset 0px 3px 6px -2px #000;
+  transition: none;
+  transform: scale(1);
+  box-shadow: inset 0px 3px 6px -2px #000;
 }
 
 /* i7 */
 #rectangular button.i7 {
-	background: rgb(145, 255, 0);
-	color: white;
-	box-shadow: 0px 7px 13px -2px #00000080;
+  background: rgb(145, 255, 0);
+  color: white;
+  box-shadow: 0px 7px 13px -2px #00000080;
 }
 #rectangular button.i7:hover {
-	transform: scale(1.3) translateY(-3px);
-	transition: 0.3s cubic-bezier(0.79, -0.35, 0, 1.87);
-	border-radius: 10px;
-	box-shadow: 0px 13px 15px -7px #000000cc;
+  transform: scale(1.3) translateY(-3px);
+  transition: 0.3s cubic-bezier(0.79, -0.35, 0, 1.87);
+  border-radius: 10px;
+  box-shadow: 0px 13px 15px -7px #000000cc;
 }
 #rectangular button.i7:active {
-	transform: scale(1);
-	transition: 0.1s ease-in-out;
-	border-radius: 0px;
-	box-shadow: inset 0px 3px 6px -2px #000;
+  transform: scale(1);
+  transition: 0.1s ease-in-out;
+  border-radius: 0px;
+  box-shadow: inset 0px 3px 6px -2px #000;
 }
 
 /* 
@@ -141,35 +141,35 @@ button::-moz-focus-inner {
   i1 - A button with 2 color linear gradient
  */
 #gradient button {
-	border: none;
-	color: white;
-	font-weight: bold;
-	height: 35px;
-	width: 75px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  height: 35px;
+  width: 75px;
 }
 #gradient button:focus {
-	outline: none;
+  outline: none;
 }
 /* i1 */
 #gradient button.i1 {
-	background-image: linear-gradient(#00eeff, #0099ff);
+  background-image: linear-gradient(#00eeff, #0099ff);
 }
 #gradient button.i1:active {
-	background-image: linear-gradient(#0099ff, #00eeff);
+  background-image: linear-gradient(#0099ff, #00eeff);
 }
 /* i2 */
 #gradient button.i2 {
-	background-image: linear-gradient(
-		to top right,
-		#642cff,
-		#ffad7d,
-		#f0ff6c,
-		#ffcf33
-	);
-	background-size: 300% 300%;
-	background-position: right;
-	transition: background-position 0.5s ease-in-out;
+  background-image: linear-gradient(
+    to top right,
+    #642cff,
+    #ffad7d,
+    #f0ff6c,
+    #f0ff
+  );
+  background-size: 300% 300%;
+  background-position: right;
+  transition: background-position 0.5s ease-in-out;
 }
 #gradient button.i2:hover {
-	background-position: left;
+  background-position: left;
 }
