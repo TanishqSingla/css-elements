@@ -65,8 +65,48 @@ li:hover > ul.drop-menu {
 
 li:hover > ul.drop-menu li {
   opacity: 0;
+}
+
+li:hover > ul.drop-menu li:nth-child(1) {
   -webkit-animation: drop 300ms ease-in-out forwards;
           animation: drop 300ms ease-in-out forwards;
+  -webkit-animation-delay: -150ms;
+          animation-delay: -150ms;
+}
+
+li:hover > ul.drop-menu li:nth-child(2) {
+  -webkit-animation: drop 300ms ease-in-out forwards;
+          animation: drop 300ms ease-in-out forwards;
+  -webkit-animation-delay: 0ms;
+          animation-delay: 0ms;
+}
+
+li:hover > ul.drop-menu li:nth-child(3) {
+  -webkit-animation: drop 300ms ease-in-out forwards;
+          animation: drop 300ms ease-in-out forwards;
+  -webkit-animation-delay: 150ms;
+          animation-delay: 150ms;
+}
+
+li:hover > ul.drop-menu li:nth-child(4) {
+  -webkit-animation: drop 300ms ease-in-out forwards;
+          animation: drop 300ms ease-in-out forwards;
+  -webkit-animation-delay: 300ms;
+          animation-delay: 300ms;
+}
+
+li:hover > ul.drop-menu li:nth-child(5) {
+  -webkit-animation: drop 300ms ease-in-out forwards;
+          animation: drop 300ms ease-in-out forwards;
+  -webkit-animation-delay: 450ms;
+          animation-delay: 450ms;
+}
+
+li:hover > ul.drop-menu li:nth-child(6) {
+  -webkit-animation: drop 300ms ease-in-out forwards;
+          animation: drop 300ms ease-in-out forwards;
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms;
 }
 
 @-webkit-keyframes drop {

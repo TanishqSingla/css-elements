@@ -50,7 +50,11 @@ li:hover > ul.drop-menu
   perspective: 1000px 
   li  
     opacity: 0
-    animation: drop 300ms ease-in-out forwards
+
+    @for $i from 1 through 6
+      &:nth-child(#{$i})
+        animation: drop 300ms ease-in-out forwards
+        animation-delay: ( 150ms * $i ) - 300ms
 
   @keyframes drop
     0%
