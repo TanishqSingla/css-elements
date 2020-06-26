@@ -1,0 +1,27 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+nav {
+  text-align: center;
+  padding: 50px;
+  background: #333;
+}
+
+nav > ul {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav > li {
+  position: relative;
+}
+
+ul.drop-menu {
+  list-style-type: none;
+}
+/*# sourceMappingURL=style.css.map */
