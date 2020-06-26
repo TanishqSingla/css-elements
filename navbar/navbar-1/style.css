@@ -18,7 +18,7 @@ a {
   background: black;
   color: white;
   height: 4.5rem;
-  box-shadow: 0px 3px 11px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 3px 11px 4px rgba(0, 0, 0, 0.4);
 }
 
 .navbar-nav {
@@ -37,28 +37,11 @@ a {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  position: relative;
 }
 .navbar-nav > li:hover {
   background: white;
   color: black;
   transition: all 0.3s ease-in;
   transition-delay: 0.1s;
-  transform: scale(1.1);
-}
-
-.dropdown-container {
-  position: absolute;
-  transform: translateY(5rem);
-  margin: 0;
-  padding: 0;
-  color: black;
-  background: blue;
-  width: 20%;
-  text-align: center;
-}
-
-.dropdown-container ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
 }
